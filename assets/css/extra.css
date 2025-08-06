@@ -1,5 +1,5 @@
 .button.primary:hover {
-    background-color: #444444;
+    background-color: #444444
 }
 
 .flex-video-container {
@@ -8,4 +8,25 @@
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
+}
+
+.flex-button-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    list-style: none;
+}
+
+.color-cream {
+    background-color: #FFFFED
+}
+
+.color-light-green {
+    background-color: #99E099
+}
+
+.color-light-brown {
+    background-color: #D9C4B0
 }
