@@ -22,7 +22,7 @@ function onSubmit(event) {
     if (event.target.id === "contactform") {
         const data = new FormData(event.target)
 
-        fetch("https://formspree.io/f/xqalyqka", {
+        fetch("https://formspree.io/f/xldlzdzo", {
             method: "POST",
             headers: {
                 "Accept": "application/json"
